@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@eslint/create-config": "^3.0.0"
+  },
+  "_npx": {
+    "packages": [
+      "@eslint/create-config@latest"
+    ]
+  }
+}
