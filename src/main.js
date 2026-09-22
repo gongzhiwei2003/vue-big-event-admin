@@ -8,6 +8,5 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-console.log('app mounted') // Add this line to log when the app is mounted
 
 app.mount('#app')
