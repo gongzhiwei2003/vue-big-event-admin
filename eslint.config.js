@@ -12,6 +12,7 @@ export default [
     },
     rules: {
       // 你自定义的 Vue 规则
+      'no-unused-vars': 'off',
       'vue/multi-word-component-names': ['warn', { ignores: ['index'] }],
       'vue/no-setup-props-destructure': ['off']
     }
