@@ -28,9 +28,8 @@ function goList() {
 </script>
 
 <template>
-  <!-- <router-link to="/">Home</router-link>
- <router-link to="{name:'User',params:{id:1}}">User1</router-link>
-  <router-view></router-view>  -->
+  <router-view></router-view>
+  <hr />
   <el-button @click="$router.push('/home')">跳转到home</el-button>
   <el-button @click="goList">跳转到List</el-button>
   <p>{{ userStore.token }}</p>
